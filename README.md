@@ -19,11 +19,14 @@ add_type
 - commit message
 
 ```text
-  fix(project): common BUG #23013 增加branch_name_with_type
+  fix(project): common
+  BUG #23013 增加branch_name_with_type
 ```
 
 - commit message with url
 
 ```text
-  fix(project): common BUG #23013 增加branch_name_with_type http://192.168.0.100:20000/index.php?m=bug&f=view&bugID=23013
+  fix(project): common
+  BUG #23013 增加branch_name_with_type
+  http://192.168.0.100:20000/index.php?m=bug&f=view&bugID=23013
 ```
