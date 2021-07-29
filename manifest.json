@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "zentao-gitflow-chrome-plugin",
+  "version": "1.0",
+  "description": "zentao-gitflow-chrome-plugin",
+  "author": "yuanbao",
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery.min.js",
+        "content-script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "notifications"
+  ]
+}
